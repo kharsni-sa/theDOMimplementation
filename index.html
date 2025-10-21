@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Implementation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header-section">
+        <p class="header-content" id="greeting">Hello</p>
+    </header>
+
+    <div class="container">
+        <div class="box" data-color="red" onclick="fillColor(this)">Red</div>
+        <div class="box" data-color="blue" onclick="fillColor(this)">Blue</div>
+        <div class="box" data-color="green" onclick="fillColor(this)">Green</div>
+        <div class="box" data-color="yellow" onclick="fillColor(this)">Yellow</div>
+    </div>
+
+    <form action="#" class="form-content">
+        <input type="text" id="inputName" placeholder="Enter your name">
+        <input type="submit" onclick="greetUser()" value="Greet">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
