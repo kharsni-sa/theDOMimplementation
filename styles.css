@@ -1,0 +1,33 @@
+.header-section{
+    background-color: lightgrey;
+    padding: 0.5rem 0;
+}
+
+.header-content{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 20px;
+    padding: 15px;
+    border: 1px solid gray;
+
+}
+
+.form-content{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
